@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 **NOTE: For users interested in multi-GPU, we recommend looking at the newer [cifar10_estimator](https://github.com/tensorflow/models/tree/master/tutorials/image/cifar10_estimator) example instead.**
 
 ---
@@ -11,3 +12,6 @@ Code in this directory demonstrates how to use TensorFlow to train and evaluate 
 Detailed instructions on how to get started available at:
 
 http://tensorflow.org/tutorials/deep_cnn/
+=======
+# CIFAR_mask
+>>>>>>> 4556a66641d6fa5c7c4459e635a2e6c616852880
