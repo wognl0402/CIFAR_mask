@@ -1,4 +1,7 @@
 cifar10_eval/
 cifar10_data/
 cifar10_train_bad/
+cifar10_train_good/
+test/
+tmp.jpeg
 cat.jpg

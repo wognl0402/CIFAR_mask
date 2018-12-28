@@ -1,17 +1,18 @@
-<<<<<<< HEAD
-**NOTE: For users interested in multi-GPU, we recommend looking at the newer [cifar10_estimator](https://github.com/tensorflow/models/tree/master/tutorials/image/cifar10_estimator) example instead.**
+The files are originally from 
+https://github.com/tensorflow/models/tree/master/tutorials/image/cifar10
 
----
+![CIFAR_masked](./image/CIFAR-10.png)
 
-CIFAR-10 is a common benchmark in machine learning for image recognition.
+20181226: modified the input size from 24x24 to 32x32
 
-http://www.cs.toronto.edu/~kriz/cifar.html
+20181227: implemented single pixel deletion at first convolutional layer
 
-Code in this directory demonstrates how to use TensorFlow to train and evaluate a convolutional neural network (CNN) on both CPU and GPU. We also demonstrate how to train a CNN over multiple GPUs.
+modify 'cifar10_infer_final.py' 
+  1. line 18: filename = "." #absolute path to input image
+  2. line 41: label = [] #0~9 number corresponding to categories.
 
-Detailed instructions on how to get started available at:
+$ python cifar10_infers.py
 
-http://tensorflow.org/tutorials/deep_cnn/
-=======
-# CIFAR_mask
->>>>>>> 4556a66641d6fa5c7c4459e635a2e6c616852880
+resulting image:
+
+![frog_v1](./image/frog_v1.png)
